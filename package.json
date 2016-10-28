@@ -1,21 +1,31 @@
 {
   "name": "enzyme-example-jest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Example project with React + Enzyme + Jest",
+  "keywords": [
+    "react",
+    "enzyme",
+    "jest",
+    "test"
+  ],
   "main": "build/index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lelandrichardson/enzyme-example-jest.git"
+    "url": "git+https://github.com/vjwilson/enzyme-example-jest"
   },
   "author": "Leland Richardson <leland.richardson@airbnb.com>",
+  "contributors": [
+    "Leland Richardson <leland.richardson@airbnb.com>",
+    "Van J. Wilson <van.wilson1992@alumni.unc.edu>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lelandrichardson/enzyme-example-jest/issues"
+    "url": "https://github.com/vjwilson/enzyme-example-jest/issues"
   },
-  "homepage": "https://github.com/lelandrichardson/enzyme-example-jest#readme",
+  "homepage": "https://github.com/vjwilson/enzyme-example-jest#readme",
   "devDependencies": {
     "babel": "^6.3.26",
     "babel-jest": "^6.0.1",
