@@ -42,24 +42,5 @@
   "dependencies": {
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
-  },
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "unmockedModulePathPatterns": [
-      "react",
-      "react-dom",
-      "react-addons-test-utils",
-      "fbjs",
-      "enzyme",
-      "cheerio",
-      "htmlparser2",
-      "underscore",
-      "lodash",
-      "domhandler",
-      "object.assign",
-      "define-properties",
-      "function-bind",
-      "object-keys"
-    ]
   }
 }
