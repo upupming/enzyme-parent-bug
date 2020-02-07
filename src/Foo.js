@@ -5,17 +5,18 @@ const propTypes = {};
 const defaultProps = {};
 
 class Foo extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+    constructor(props) {
+        super(props);
+    }
 
-  render() {
-    return (
-      <div className="foo">
-        Bar
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="foo">
+                Bar
+                <div className="bar"></div>
+            </div>
+        );
+    }
 }
 
 Foo.propTypes = propTypes;
